@@ -1,0 +1,25 @@
+     Requests :
+	  1.the background should be a relaxing photo of nature;
+      2.the font of the writing should be about 12 and in a Courier New;
+      3.there should be pictures of the books that are rated and even small
+	  fragments from the book;
+	  4.on the main page there will be a list of the books on the site;
+	  5.in order to access the book's page, one must click on the book's name
+	  and he/she will be directed towards their choice where they can see
+	  the ratings and comments of the book;
+	  6.it would be nice for some classical music to start as soon as 
+     the user starts using the site- they also have the option of turning 
+	 it down;
+	  7.the rating method is as follows: the users will have to chose from  	  
+	 5 - best book to 1 - not worth reading. There will be a median that will be 
+     used to value the books in full;
+      8.along with comments and fragments of the book, there will be also informations 
+    about the ecranization of the book,which will also be commented and rated;  
+	
+	Specifications:
+	  1.in order to calculate the rating of the book will be used php coding;
+      2.SQL will be used to construct the data base for the books and users; 
+      3.the background will be created using html and formating the page;
+	  4.the buttons and other elements used for user interactions will be
+	  modeled using Javascript; 
+	 
