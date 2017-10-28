@@ -1,0 +1,29 @@
+body {
+background-image:url("frozen.jpg");
+font-family: courier new;
+}
+
+h1{
+padding:15px 15px 0 15px;
+display: inline;
+}
+
+ul {
+margin: 5;
+display: inline; 
+}
+
+ul.lit{
+background: black; 
+color: white; 
+margin: 5;
+display: inline-block;  
+list-style-type: none; 
+padding: 5px 15px;
+}
+
+div.lst{ 
+list-style-type: none; 
+padding: 5px 15px;
+}
+
