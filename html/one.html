@@ -14,11 +14,30 @@
 	<li><a href="one.html">Home</a></li>
 	<li><a href="BookList.html">Book List</a></li>
 	<li><a href="Authors.html">Authors</a></li>
-	<li><a href="MovieList"> Film List</a></li>
+	<li><a href="MovieList.html"> Film List</a></li>
 	<li><a href="singin.html">Sing In</a></li>
 	<li><a href="aboutus.html">About Us</a></li>
 	</ul>
 	<p> This is homepage</p>
     </body>
-
-</html>
+    <h2>Do you like our site?</h2>
+	<p>Please provide feedback: </p>
+	<form method="post" action="send_mail.php">
+    <p>
+    <label>First Name
+    <input type="text" name="first_name" required>
+    </label> 
+    </p>
+    <p>
+    <label>Email 
+    <input type="email" name="email_address">
+    </label>
+    </p>
+    <p>
+    <label>Comments
+    <textarea name="comments" maxlength="500"></textarea>
+    </label>
+    </p>
+    <p><button>Submit the form</button></p>
+    </form>
+	</html>
