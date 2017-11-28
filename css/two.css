@@ -26,3 +26,23 @@ background:#F0FFFF;
 margin: 40px;
 text-align: center;
 }
+
+.comment_input{
+	background:#CCC;
+	margin:10px;
+	padding:10px;
+	border:1px solid #CCC;
+}
+
+.button{
+	padding:5px 15px 5px 15px;
+    background:#567373;
+    color: #FFF;
+	border-radius: 3px;
+}
+
+.comment_logs{
+	margin:5px;
+	padding:5px;
+	border:1px solid #CCC;
+}
