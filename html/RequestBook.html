@@ -1,0 +1,36 @@
+<html>
+<head>
+ <title> BookLunatic </title>
+ <link href="two.css" rel="stylesheet" type="text/css" />
+ </head>
+   <body>
+    <audio controls>
+	<source src="Astronaut.mp3" type="audio/mpeg">
+    </audio> 
+	<p></p> 
+	<h1> Request Book</h1>
+	<ul>
+	<li><a href="one.html">Home</a></li>
+	<li><a href="BookList.html">Book List</a></li>
+	<li><a href="Authors.html">Authors</a></li>
+	<li><a href="MovieList.html">Film List</a></li>
+	<li><a href="RequestBook.html">Request Book</a></li>
+	<li><a href="singin.html">Sing In</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	</ul>
+	<h2>This form does not require an account. You can request a book even without one.<h2>
+    	<form action="request.php" method="post">
+		 <p>Name Of Book: <input type="text" name="name"/></p>
+		 <p>Author of Book: <<input type="text" name="author"/></p>
+		 <p><input type="submit" /></p>
+		 </form>
+	<h2>As a bonus, you can also request new songs on each page, but you need to mention the page but, if you did, 
+	the song may not be placed on the page if ,I, do not consider that the song fits the page. You must provide the full 
+	name of the page you want the song to be posted on.<h2>
+	<form action="request.php" method="post">
+		 <p>Song: <input type="text" name="song"/></p>
+		 <p>Artist: <input type="text" name="artist"/></p>
+		 <p>Page: <input type="text" name="page"/></p>
+		 <p><input type="submit" /></p>
+		 </form>
+	</html>
