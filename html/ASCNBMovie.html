@@ -28,6 +28,22 @@
 		});
 		
 </script>
+  <script>
+function getVote(int) {
+  if (window.XMLHttpRequest) {
+    xmlhttp=new XMLHttpRequest();
+  } else { 
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
 </head>
    <body>
     <audio controls>
@@ -74,6 +90,21 @@
             <a href="#" onClick="commentSubmit()" class="button">Post</a></br>
         </form>
     </div>
+	<div id="poll">
+		<h3>How much do you rate this movie?</h3>
+		<form>
+		1
+		<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+		2
+		<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+        3
+		<input type="radio" name="vote" value="2" onclick="getVote(this.value)">
+		4
+		<input type="radio" name="vote" value="3" onclick="getVote(this.value)">
+		5
+		<input type="radio" name="vote" value="4" onclick="getVote(this.value)">
+		</form>
+	</div>			
     <div id="comment_logs">
     	Loading comments...
     <div>
